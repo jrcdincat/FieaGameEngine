@@ -1,0 +1,27 @@
+{
+  "Object": {
+    "type": "table",
+    "class":  "Monster",
+    "value": {
+      "Name": {
+        "type": "string",
+        "value": "TheName"
+      },
+      "Children": {
+        "type": "table",
+        "value": {
+          "ChildOne": {
+            "type": "table",
+            "class": "Monster",
+            "value": {
+              "Name": {
+                "type": "string",
+                "value": "InnerChild"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "Plane": {
+    "type": "vector",
+    "value": "vec4(7,6,5,4)"
+  },
+  "Object": {
+    "type": "table",
+    "value": {
+      "BoxNumber": {
+        "type": "integer",
+        "value": [ 2, 3, 4 ]
+      },
+      "Height": {
+        "type": "float",
+        "value": [ 4.3, 5.3, 7.2 ]
+      },
+      "Name": {
+        "type": "string",
+        "value": "++C"
+      }
+    }
+  }
+}

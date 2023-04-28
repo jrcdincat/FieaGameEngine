@@ -1,0 +1,29 @@
+{
+  "A": {
+    "type": "integer", 
+    "value": 1
+  },
+  "Actions": {
+    "type": "table",
+    "value": [
+      {
+        "type": "table",
+        "class": "ActionIncrement",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Increment Count"
+          },
+          "Target": {
+            "type": "string",
+            "value": "A"
+          },
+          "Step": {
+            "type": "integer",
+            "value": -5
+          }
+        }
+      }
+    ]  
+  }
+}

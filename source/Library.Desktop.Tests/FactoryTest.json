@@ -1,0 +1,16 @@
+{
+  "Object": {
+    "type": "table",
+    "class":  "AttributedFoo",
+    "value": {
+      "ExternalInteger": {
+        "type": "integer",
+        "value": 2
+      },
+      "ExternalString": {
+        "type": "string",
+        "value": "++C"
+      }
+    }
+  }
+}

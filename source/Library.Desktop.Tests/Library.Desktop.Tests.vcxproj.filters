@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="SListTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Foo.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="FooTests.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="HashMapTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultHashTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="DatumTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Bar.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="BarTests.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedFoo.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestModuleInitialize.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedBar.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeManagerTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonParseCoordinatorTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonIntegerParseHelper.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonTestParseHelper.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionsTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FooEventSubscriber.cpp">
+      <Filter>Support Code\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="FooEvent.cpp">
+      <Filter>Support Code\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="ReactionTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Foo.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="ToStringSpecializations.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultHashSpecializations.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedFoo.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedBar.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonIntegerParseHelper.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonTestParseHelper.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="FooEventSubscriber.h">
+      <Filter>Support Code\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="FooEvent.h">
+      <Filter>Support Code\Events</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Support Code">
+      <UniqueIdentifier>{ab19b2b0-1512-4f28-8749-18e091d679f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{7cb067e0-8eb3-4331-b7d9-e0a616510693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{fd316670-0437-4a5b-a8d1-a2f1e0958446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support Code\Events">
+      <UniqueIdentifier>{31d26965-8c80-4456-bb11-4e4a981c9e29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="GameObjectTest.json">
+      <Filter>Content</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="FactoryTest.json">
+      <Filter>Content</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="FileTest.json">
+      <Filter>Content</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="ActionTest.json">
+      <Filter>Content</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
