@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{86534535-12B9-4983-BDD9-CBB9CD4260E2}"
+	ProjectSection(SolutionItems) = preProject
+		Shared.props = Shared.props
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Library.Desktop", "..\source\Library.Desktop\Library.Desktop.vcxproj", "{C4C7930A-1B1D-43DF-B76E-4538A9526242}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Library.Shared", "..\source\Library.Shared\Library.Shared.vcxitems", "{4B3832E7-38DB-43EF-8DBF-D08C0DC43CD2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Library.Desktop.Tests", "..\source\Library.Desktop.Tests\Library.Desktop.Tests.vcxproj", "{BE44E06C-8054-42D7-B940-DE2A55C7ED4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4C7930A-1B1D-43DF-B76E-4538A9526242}.Debug|x64.ActiveCfg = Debug|x64
+		{C4C7930A-1B1D-43DF-B76E-4538A9526242}.Debug|x64.Build.0 = Debug|x64
+		{C4C7930A-1B1D-43DF-B76E-4538A9526242}.Debug|x86.ActiveCfg = Debug|Win32
+		{C4C7930A-1B1D-43DF-B76E-4538A9526242}.Debug|x86.Build.0 = Debug|Win32
+		{C4C7930A-1B1D-43DF-B76E-4538A9526242}.Release|x64.ActiveCfg = Release|x64
+		{C4C7930A-1B1D-43DF-B76E-4538A9526242}.Release|x64.Build.0 = Release|x64
+		{C4C7930A-1B1D-43DF-B76E-4538A9526242}.Release|x86.ActiveCfg = Release|Win32
+		{C4C7930A-1B1D-43DF-B76E-4538A9526242}.Release|x86.Build.0 = Release|Win32
+		{BE44E06C-8054-42D7-B940-DE2A55C7ED4D}.Debug|x64.ActiveCfg = Debug|x64
+		{BE44E06C-8054-42D7-B940-DE2A55C7ED4D}.Debug|x64.Build.0 = Debug|x64
+		{BE44E06C-8054-42D7-B940-DE2A55C7ED4D}.Debug|x86.ActiveCfg = Debug|Win32
+		{BE44E06C-8054-42D7-B940-DE2A55C7ED4D}.Debug|x86.Build.0 = Debug|Win32
+		{BE44E06C-8054-42D7-B940-DE2A55C7ED4D}.Release|x64.ActiveCfg = Release|x64
+		{BE44E06C-8054-42D7-B940-DE2A55C7ED4D}.Release|x64.Build.0 = Release|x64
+		{BE44E06C-8054-42D7-B940-DE2A55C7ED4D}.Release|x86.ActiveCfg = Release|Win32
+		{BE44E06C-8054-42D7-B940-DE2A55C7ED4D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {692E3DC8-3401-42C4-9E93-C0EB1AC120CC}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\source\Library.Shared\Library.Shared.vcxitems*{4b3832e7-38db-43ef-8dbf-d08c0dc43cd2}*SharedItemsImports = 9
+		..\source\Library.Shared\Library.Shared.vcxitems*{c4c7930a-1b1d-43df-b76e-4538a9526242}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
