@@ -15,3 +15,4 @@ Additional Work Required:
 - Remove the heavy usage of smart pointers where possible in order to reduce the chance of pointer ownership issues
 - Clean up and write more thorough unit tests
 - Needs rendering functionality
+- Needs audio functionality
