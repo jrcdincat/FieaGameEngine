@@ -1,4 +1,4 @@
-# FieaGameEngine
+# FIEA Game Engine
 The FieaGameEngine was created while at Florida Interactive Entertainment Academy as a graduate student over a 4 month period in Spring 2023. It lays the foundation for a game engine that can be used to create games. 
 
 The following design patterns were implemented
